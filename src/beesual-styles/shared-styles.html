@@ -1,0 +1,88 @@
+<!--
+@license
+Copyright (c) 2016 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+
+<link rel="import" href="../../bower_components/polymer/polymer-element.html">
+
+<!-- shared styles for all views -->
+<dom-module id="shared-styles">
+  <template>
+    <style>
+
+      h1 {
+        font-family: 'BeevaNexa';
+        margin: 16px 0;
+        color: #212121;
+        font-size: 22px;
+      }
+
+      .centered {
+        text-align: center;
+      }
+
+      .action-link {
+        text-decoration: none;
+        color: var(--blue-indico-primary);
+        padding: 8px 0;
+        box-sizing: border-box;
+        font-weight: bold;
+      }
+
+      .action-link-left-align {
+        margin-right: 24px;
+      }
+
+      .action-link:hover {
+        cursor: pointer;
+        color: var(--blue-indico-primary-light);
+      }
+
+      @media (min-width: 1280px) {
+
+        .page-container {
+          display: block;
+          max-width: 1200px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+
+      @media (min-width: 1024px) and (max-width: 1279px) {
+
+        .page-container {
+          display: block;
+          max-width: 960px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+
+      @media (min-width: 768px) and (max-width: 1023px) {
+
+        .page-container {
+          display: block;
+          max-width: 720px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+
+      @media (max-width: 767px) {
+
+        .page-container {
+          display: block;
+          max-width: 360px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+
+    </style>
+  </template>
+</dom-module>

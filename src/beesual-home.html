@@ -1,0 +1,223 @@
+<!--
+@license
+Copyright (c) 2016 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+
+<link rel="import" href="../bower_components/polymer/polymer-element.html">
+<link rel="import" href="beesual-styles/beesual-colors.html">
+<link rel="import" href="beesual-styles/beesual-typography.html">
+
+<link rel="import" href="../bower_components/polymer/lib/utils/debounce.html">
+<!--<link rel="import" href="shared-styles.html">-->
+
+<dom-module id="beesual-home">
+  <template>
+    <style include="beesual-typography"></style>
+    <style include="beesual-colors">
+      :host {
+        display: block;
+        margin-top: -76px;
+        padding: 0px;
+      }
+
+      .row-block {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .col-block {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .align-item-centered {
+        align-items: center;
+      }
+
+      .justify-content-center {
+        justify-content: center;
+      }
+
+      .logo-lg {
+        font-size: 144px;
+        line-height: 1em;
+        margin: 0;
+        font-family: Roboto;
+        opacity: 0.3;
+        color: white;
+      }
+
+      .title {
+        font-family: Raleway;
+        font-size: 18px;
+        color: #fff;
+        padding-top: 32px;
+        box-sizing: border-box;
+        margin: 0;
+      }
+
+      .hidden {
+        display: none;
+      }
+
+      .homepage-hero-module {
+        border-right: none;
+        border-left: none;
+        position: relative;
+      }
+      .no-video .video-container video,
+      .touch .video-container video {
+        display: none;
+      }
+      .no-video .video-container .poster,
+      .touch .video-container .poster {
+        display: block !important;
+      }
+      .video-container {
+        position: relative;
+        bottom: 0%;
+        left: 0%;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        background: #000;
+      }
+      .video-container .poster img {
+        width: 100%;
+        bottom: 0;
+        position: absolute;
+      }
+      .video-container .filter {
+        position: absolute;
+        z-index: 1;
+        bottom: 0;
+        top: 0;
+        background-color: var(--blue-indico-dark-blue);
+        opacity: 0.9;
+        width: 100%;
+      }
+      .video-container video.fillWidth {
+        width: 100%;
+      }
+    </style>
+
+    <div class="homepage-hero-module">
+      <div class="video-container">
+        <div class="filter col-block align-item-centered justify-content-center">
+          <p class="logo-lg">B E E S U A L</p>
+          <p class="title">Un cambio en la cultura y la forma en la que comunicamos valor</p>
+        </div>
+        <video autoplay loop class="fillWidth">
+          <source src="../video/video-background.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+          <source src="../video/video-background.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+        </video>
+        <div class="poster hidden">
+          <img src="../images/video-background.jpg" alt="">
+        </div>
+      </div>
+    </div>
+
+  </template>
+
+  <script>
+    class BeesualHome extends Polymer.Element {
+      static get is() { return 'beesual-home'; }
+
+      ready() {
+        super.ready();
+        var that = this;
+        Polymer.Async.animationFrame.run(function() {
+          that.scaleVideoContainer();
+          that.initBannerVideoSize('.video-container .poster img');
+          that.initBannerVideoSize('.video-container .filter');
+          that.initBannerVideoSize('.video-container video');
+        });
+      }
+
+      scaleVideoContainer() {
+        var height = window.innerHeight + 5;
+        var unitHeight = parseInt(height) + 'px';
+        this.shadowRoot.querySelector('.homepage-hero-module').style.height = unitHeight;
+      }
+
+      initBannerVideoSize(element) {
+
+        var elements = this.shadowRoot.querySelectorAll(element);
+
+        var i;
+        for(i=0; i<elements.length; i++) {
+          elements[i].height = window.innerHeight;
+        }
+        this.scaleBannerVideoSize(element);
+
+      }
+
+      scaleBannerVideoSize(element){
+
+        var windowWidth = window.innerWidth,
+                windowHeight = window.innerHeight,
+                videoWidth,
+                videoHeight;
+
+        // console.log(windowHeight);
+
+        var elements = this.shadowRoot.querySelectorAll(element);
+
+        var i;
+
+        for(i=0; i<elements.length; i++) {
+          var videoAspectRatio = elements[i].height/elements[i].width;
+          elements[i].width = windowWidth;
+          if(windowWidth < 1000) {
+            videoHeight = windowHeight;
+            videoWidth = videoHeight / videoAspectRatio;
+            elements[i].style.marginTop = 0;
+            elements[i].style.marginLeft = -(videoWidth - windowWidth) / 2 + 'px';
+            elements[i].width = videoWidth;
+            elements[i].height = videoHeight;
+          }
+        }
+
+        this.shadowRoot.querySelector('.homepage-hero-module .video-container video').classList.add('fadeIn');
+        this.shadowRoot.querySelector('.homepage-hero-module .video-container video').classList.add('animated');
+
+      }
+    }
+
+
+
+    //jQuery is required to run this code
+//    $( document ).ready(function() {
+//
+//      scaleVideoContainer();
+//
+//      initBannerVideoSize('.video-container .poster img');
+//      initBannerVideoSize('.video-container .filter');
+//      initBannerVideoSize('.video-container video');
+//
+//      $(window).on('resize', function() {
+//        scaleVideoContainer();
+//        scaleBannerVideoSize('.video-container .poster img');
+//        scaleBannerVideoSize('.video-container .filter');
+//        scaleBannerVideoSize('.video-container video');
+//      });
+//
+//    });
+//
+
+//
+//
+//
+//
+//
+// );
+//    }
+
+    window.customElements.define(BeesualHome.is, BeesualHome);
+  </script>
+</dom-module>

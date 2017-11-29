@@ -1,0 +1,107 @@
+<!--
+@license
+Copyright (c) 2016 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+
+<link rel="import" href="../bower_components/polymer/polymer-element.html">
+<link rel="import" href="../bower_components/iron-ajax/iron-ajax.html">
+<link rel="import" href="../bower_components/paper-button/paper-button.html">
+<link rel="import" href="../bower_components/iron-image/iron-image.html">
+
+<link rel="import" href="beesual-styles/beesual-styles.html">
+
+<dom-module id="beesual-how-to-start">
+  <template>
+    <style include="beesual-styles">
+      :host {
+        display: block;
+        padding: 10px;
+      }
+
+      .card-container {
+        flex-wrap: wrap;
+      }
+
+      .card-wrapper {
+        width: 50%;
+        box-sizing: border-box;
+        padding: 8px;
+        margin: 0;
+      }
+
+      .card {
+        display: block;
+        background-color: white;
+        padding: 16px;
+        box-sizing: border-box;
+        border-radius: 2px;
+        color: var(--blue-indico-dark-gray);
+        box-shadow: 1px 1px 4px 0 var(--blue-indico-light-gray);
+      }
+
+      .card-title {
+        padding-top: 8px;
+      }
+
+      .card-image-wrapper  {
+        width: 100px;
+        height: 100px;
+        padding: 8px 0 0 16px;
+        box-sizing: content-box;
+      }
+      .flat-button-link {
+        text-decoration: none;
+      }
+    </style>
+
+    <iron-ajax
+            auto
+            url="../data/how-to-start-guides.json"
+            handle-as="json"
+            last-response="{{guides}}"
+            debounce-duration="300"></iron-ajax>
+
+    <div class="page-container">
+
+      <div class="row-block card-container lg-one-col-right-padding lg-one-col-left-padding">
+
+        <template is="dom-repeat" items="[[guides]]">
+          <div class="card-wrapper row-block">
+            <div class="card">
+              <div class="card-content row-block">
+                <div class="card-info">
+                  <h4 class="card-title heading-2">[[item.name]]</h4>
+                  <p class="subparagraph">[[item.description]] </p>
+                </div>
+                <div class="card-image-wrapper">
+                  <iron-image preload fade src="../images/[[item.icon-regular]]"></iron-image>
+                </div>
+              </div>
+              <div class="card-actions">
+                <template is="dom-repeat" items="[[item.actions]]">
+                  <a class="flat-button-link" href="/how-to-start/[[item.link]]">
+                    <paper-button class="flat-button">[[item.name]]</paper-button>
+                  </a>
+                </template>
+              </div>
+            </div>
+          </div>
+        </template>
+
+      </div>
+    </div>
+  </template>
+
+  <script>
+    class BeesualHowToStart extends Polymer.Element {
+      static get is() { return 'beesual-how-to-start'; }
+    }
+
+    window.customElements.define(BeesualHowToStart.is, BeesualHowToStart);
+  </script>
+</dom-module>
