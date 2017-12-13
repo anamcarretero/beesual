@@ -25,6 +25,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
 <link rel="lazy-import" href="beesual-home.html">
 <link rel="lazy-import" href="beesual-hot-to-start.html">
+<link rel="lazy-import" href="beesual-resources.html">
+
 <!--<link rel="lazy-import" href="my-view3.html">-->
 <link rel="lazy-import" href="beesual-view404.html">
 
@@ -103,6 +105,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         color: white;
         text-transform: uppercase;
         opacity: 0.8;
+        position: relative;
+        font-size: 15px;
+        -webkit-font-smoothing: antialiased;
       }
 
       .toolbar-list-item:hover {
@@ -112,6 +117,20 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
       .toolbar-list-item.iron-selected {
         opacity: 1;
+      }
+
+      .toolbar-list-item.iron-selected:after {
+        content: '';
+        position: absolute;
+        bottom: -12px;
+        height: 4px;
+        width: 100%;
+        background-color: white;
+        left: 0;
+      }
+
+      :host([page=home]) .toolbar-list-item.iron-selected:after {
+        background-color: transparent;
       }
 
       [main-title] {
@@ -159,6 +178,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
               <iron-selector selected="[[page]]" class="row-block navigation-list" attr-for-selected="name" role="navigation">
                 <a class="toolbar-list-item" name="home" href="[[rootPath]]home">Inicio</a>
                 <a class="toolbar-list-item" name="how-to-start" href="[[rootPath]]how-to-start">Cómo empezar</a>
+                <a class="toolbar-list-item" name="resources" href="[[rootPath]]resources">Recursos</a>
+
                 <!--<a name="view3" href="[[rootPath]]view3">View Three</a>-->
               </iron-selector>
             </div>
@@ -172,6 +193,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             role="main">
           <beesual-home name="home"></beesual-home>
           <beesual-how-to-start name="how-to-start"></beesual-how-to-start>
+          <beesual-resources name="resources"></beesual-resources>
+
           <!--<beesual-view3 name="view3"></beesual-view3>-->
           <!--<beesual-view404 name="view404"></beesual-view404>-->
         </iron-pages>

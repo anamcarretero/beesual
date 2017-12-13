@@ -1,0 +1,69 @@
+[
+  {
+    "id": "templates",
+    "name": "Biblioteca de Templates",
+    "description": "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+    "icon-regular": "resources/rocket.png",
+    "icon-2x": "resources/rocket@2x.png",
+    "icon-3x": "resources/rocket@3x.png",
+    "actions": [
+      {"name": "Ver más", "link": "/guide-1"}
+    ]
+  },
+  {
+    "id": "music",
+    "name": "Música",
+    "description": "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+    "icon-regular": "resources/plane.png",
+    "icon-2x": "resources/plane@2x.png",
+    "icon-3x": "resources/plane@3x.png",
+    "actions": [
+      {"name": "Ver más", "link": "/guide-2"}
+    ]
+  },
+  {
+    "id": "guide-3",
+    "name": "Cortinillas",
+    "description": "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+    "icon-regular": "resources/accademy.png",
+    "icon-2x": "resources/accademy@2x.png",
+    "icon-3x": "resources/accademy@3x.png",
+    "actions": [
+      {"name": "Saber más", "link": "/guide-3"}
+    ]
+  },
+  {
+    "id": "guide-4",
+    "name": "Lorem ipsum dolor sit amet",
+    "description": "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+    "icon-regular": "resources/black-board.png",
+    "icon-2x": "resources/black-board@2x.png",
+    "icon-3x": "resources/black-board@3x.png",
+    "actions": [
+      {"name": "Saber más", "link": "/guide-4"}
+    ]
+  },
+  {
+    "id": "guide-5",
+    "name": "Lorem ipsum dolor sit amet",
+    "description": "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+    "icon-regular": "resources/owl.png",
+    "icon-2x": "resources/owl@2x.png",
+    "icon-3x": "resources/owl@3x.png",
+    "actions": [
+      {"name": "Saber más", "link": "/guide-5"}
+    ]
+  },
+  {
+    "id": "guide-6",
+    "name": "Lorem ipsum dolor sit amet",
+    "description": "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+    "icon-regular": "resources/chart.png",
+    "icon-2x": "resources/chart@2x.png",
+    "icon-3x": "resources/chart@3x.png",
+    "actions": [
+      {"name": "Saber más", "link": "/guide-6"}
+    ]
+  }
+
+]

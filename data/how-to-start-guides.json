@@ -1,68 +1,26 @@
 [
   {
-    "id": "guide-1",
-    "name": "Lorem ipsum dolor sit amet",
-    "description": "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "icon-regular": "how-to-start/rocket.png",
-    "icon-2x": "how-to-start/rocket@2x.png",
-    "icon-3x": "how-to-start/rocket@3x.png",
+    "id": "loom-guide",
+    "name": "Loom",
+    "category": "EDICIÓN DE VÍDEO",
+    "description": "Puedes grabar con tu cámara, micrófono y ordenador de escritorio simultáneamente. Después puedes exportar el resultado de una forma sencilla.",
+    "icon-regular": "how-to-start/card-header-loom.jpg",
+    "icon-2x": "how-to-start/card-header-loom@2x.jpg",
+    "icon-3x": "how-to-start/card-header-loom@3x.jpg",
     "actions": [
       {"name": "Saber más", "link": "/guide-1"}
     ]
   },
   {
-    "id": "guide-2",
-    "name": "Lorem ipsum dolor sit amet",
-    "description": "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "icon-regular": "how-to-start/plane.png",
-    "icon-2x": "how-to-start/plane@2x.png",
-    "icon-3x": "how-to-start/plane@3x.png",
+    "id": "audacity-guide",
+    "name": "Audacity",
+    "category": "GRABACIÓN Y TRATAMIENTO DE SONIDO",
+    "description": "Audacity es una aplicación multiplataforma libre, que se puede usar para grabación y edición de audio, distribuido bajo la licencia GPL.",
+    "icon-regular": "how-to-start/card-header-audacity.jpg",
+    "icon-2x": "how-to-start/card-header-audacity@2x.jpg",
+    "icon-3x": "how-to-start/card-header-audacity@3x.jpg",
     "actions": [
-      {"name": "Saber más", "link": "/guide-2"}
-    ]
-  },
-  {
-    "id": "guide-3",
-    "name": "Lorem ipsum dolor sit amet",
-    "description": "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "icon-regular": "how-to-start/accademy.png",
-    "icon-2x": "how-to-start/accademy@2x.png",
-    "icon-3x": "how-to-start/accademy@3x.png",
-    "actions": [
-      {"name": "Saber más", "link": "/guide-3"}
-    ]
-  },
-  {
-    "id": "guide-4",
-    "name": "Lorem ipsum dolor sit amet",
-    "description": "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "icon-regular": "how-to-start/accademy.png",
-    "icon-2x": "how-to-start/accademy@2x.png",
-    "icon-3x": "how-to-start/accademy@3x.png",
-    "actions": [
-      {"name": "Saber más", "link": "/guide-4"}
-    ]
-  },
-  {
-    "id": "guide-5",
-    "name": "Lorem ipsum dolor sit amet",
-    "description": "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "icon-regular": "how-to-start/black-board.png",
-    "icon-2x": "how-to-start/black-board@2x.png",
-    "icon-3x": "how-to-start/black-board@3x.png",
-    "actions": [
-      {"name": "Saber más", "link": "/guide-5"}
-    ]
-  },
-  {
-    "id": "guide-6",
-    "name": "Lorem ipsum dolor sit amet",
-    "description": "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "icon-regular": "how-to-start/chart.png",
-    "icon-2x": "how-to-start/chart@2x.png",
-    "icon-3x": "how-to-start/chart@3x.png",
-    "actions": [
-      {"name": "Saber más", "link": "/guide-6"}
+      {"name": "Saber más", "link": "/audacity-guide"}
     ]
   }
 
