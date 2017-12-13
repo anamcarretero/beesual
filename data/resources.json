@@ -3,7 +3,7 @@
     "id": "templates",
     "name": "Biblioteca de Templates",
     "description": "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
-    "icon-regular": "resources/rocket.png",
+    "iconRegular": "resources/rocket.png",
     "icon-2x": "resources/rocket@2x.png",
     "icon-3x": "resources/rocket@3x.png",
     "actions": [
@@ -14,7 +14,7 @@
     "id": "music",
     "name": "Música",
     "description": "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
-    "icon-regular": "resources/plane.png",
+    "iconRegular": "resources/plane.png",
     "icon-2x": "resources/plane@2x.png",
     "icon-3x": "resources/plane@3x.png",
     "actions": [
@@ -25,7 +25,7 @@
     "id": "guide-3",
     "name": "Cortinillas",
     "description": "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
-    "icon-regular": "resources/accademy.png",
+    "iconRegular": "resources/accademy.png",
     "icon-2x": "resources/accademy@2x.png",
     "icon-3x": "resources/accademy@3x.png",
     "actions": [
@@ -36,7 +36,7 @@
     "id": "guide-4",
     "name": "Lorem ipsum dolor sit amet",
     "description": "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
-    "icon-regular": "resources/black-board.png",
+    "iconRegular": "resources/black-board.png",
     "icon-2x": "resources/black-board@2x.png",
     "icon-3x": "resources/black-board@3x.png",
     "actions": [
@@ -47,7 +47,7 @@
     "id": "guide-5",
     "name": "Lorem ipsum dolor sit amet",
     "description": "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
-    "icon-regular": "resources/owl.png",
+    "iconRegular": "resources/owl.png",
     "icon-2x": "resources/owl@2x.png",
     "icon-3x": "resources/owl@3x.png",
     "actions": [
@@ -58,7 +58,7 @@
     "id": "guide-6",
     "name": "Lorem ipsum dolor sit amet",
     "description": "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
-    "icon-regular": "resources/chart.png",
+    "iconRegular": "resources/chart.png",
     "icon-2x": "resources/chart@2x.png",
     "icon-3x": "resources/chart@3x.png",
     "actions": [

@@ -4,9 +4,9 @@
     "name": "Loom",
     "category": "EDICIÓN DE VÍDEO",
     "description": "Puedes grabar con tu cámara, micrófono y ordenador de escritorio simultáneamente. Después puedes exportar el resultado de una forma sencilla.",
-    "icon-regular": "how-to-start/card-header-loom.jpg",
-    "icon-2x": "how-to-start/card-header-loom@2x.jpg",
-    "icon-3x": "how-to-start/card-header-loom@3x.jpg",
+    "iconRegular": "../images/how-to-start/card-header-loom.jpg",
+    "icon-2x": "../images/how-to-start/card-header-loom@2x.jpg",
+    "icon-3x": "../images/how-to-start/card-header-loom@3x.jpg",
     "actions": [
       {"name": "Saber más", "link": "/guide-1"}
     ]
@@ -16,9 +16,9 @@
     "name": "Audacity",
     "category": "GRABACIÓN Y TRATAMIENTO DE SONIDO",
     "description": "Audacity es una aplicación multiplataforma libre, que se puede usar para grabación y edición de audio, distribuido bajo la licencia GPL.",
-    "icon-regular": "how-to-start/card-header-audacity.jpg",
-    "icon-2x": "how-to-start/card-header-audacity@2x.jpg",
-    "icon-3x": "how-to-start/card-header-audacity@3x.jpg",
+    "iconRegular": "../images/how-to-start/card-header-audacity.jpg",
+    "icon-2x": "../images/how-to-start/card-header-audacity@2x.jpg",
+    "icon-3x": "../images/how-to-start/card-header-audacity@3x.jpg",
     "actions": [
       {"name": "Saber más", "link": "/audacity-guide"}
     ]

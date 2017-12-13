@@ -12,7 +12,7 @@
     "fonts/**/*",
     "data/**/*",
     "images/**/*",
-    "videos/**/*"
+    "video/**/*"
   ],
   "extraDependencies": [
     "manifest.json",
