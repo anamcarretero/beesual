@@ -69,6 +69,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         border-right: none;
         border-left: none;
         position: relative;
+        overflow: hidden;
       }
       .no-video .video-container video,
       .touch .video-container video {
@@ -97,7 +98,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         z-index: 1;
         bottom: 0;
         top: 0;
-        background-image: url('../images/beesual-home.png');
+        background-image: url('../images/beesual-home-min.png');
         background-size: contain;
         background-position: center;
         /*background-color: var(--blue-indico-dark-blue);*/
@@ -105,7 +106,10 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         width: 100%;
       }
       .video-container video.fillWidth {
-        width: 100%;
+        width: auto;
+        height: auto;
+        min-width: 100%;
+        min-height: 100%;
       }
     </style>
 
@@ -115,9 +119,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           <!--<p class="logo-lg">B E E S U A L</p>-->
           <p class="title">Un cambio en la cultura y la forma en la que comunicamos valor</p>
         </div>
-        <video autoplay loop class="fillWidth">
-          <source src="../video/video-background.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+        <video id="homeVideoBackground" autoplay loop class="fillWidth">
+          <source id="videoSource" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+<!--
           <source src="../video/video-background.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+-->
         </video>
         <div class="poster hidden">
           <img src="../images/video-background.jpg" alt="">
@@ -135,6 +141,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         super.ready();
         var that = this;
         Polymer.Async.animationFrame.run(function() {
+          that.shadowRoot.querySelector('#videoSource').src = '../video/video-background.mp4';
+          that.shadowRoot.querySelector('#homeVideoBackground').load();
+
           that.scaleVideoContainer();
           that.initBannerVideoSize('.video-container .poster img');
           that.initBannerVideoSize('.video-container .filter');

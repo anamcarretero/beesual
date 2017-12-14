@@ -30,6 +30,16 @@
     },
     {
       "preset": "es6-unbundled"
-    }
+    },
+    {
+      "name": "bundled",
+      "bundle": true,
+      "js": {"minify": true, "compile": true},
+      "css": {"minify": true},
+      "html": {"minify": true},
+      "addServiceWorker": true,
+      "addPushManifest": true,
+      "insertPrefetchLinks": true
+    },
   ]
 }
