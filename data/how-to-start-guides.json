@@ -8,7 +8,7 @@
     "icon-2x": "../images/how-to-start/card-header-loom@2x.jpg",
     "icon-3x": "../images/how-to-start/card-header-loom@3x.jpg",
     "actions": [
-      {"name": "Saber más", "link": "/guide-1"}
+      {"name": "Saber más", "link": "/guides/loom"}
     ]
   },
   {
