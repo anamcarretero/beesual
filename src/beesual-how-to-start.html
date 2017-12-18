@@ -1,19 +1,9 @@
-<!--
-@license
-Copyright (c) 2016 The Polymer Project Authors. All rights reserved.
-This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
-The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
-The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
-Code distributed by Google as part of the polymer project is also
-subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
--->
-
 <link rel="import" href="../bower_components/polymer/polymer-element.html">
-<!--<link rel="import" href="../bower_components/iron-ajax/iron-ajax.html">-->
 <link rel="import" href="../bower_components/paper-button/paper-button.html">
 <link rel="import" href="../bower_components/iron-image/iron-image.html">
 
-<link rel="import" href="../bower_components/polymerfire/firebase-app.html">
+<link rel="import" href="../bower_components/polymerfire/firebase-query.html">
+<link rel="import" href="../bower_components/polymerfire/firebase-database-script.html">
 
 
 <link rel="import" href="beesual-styles/beesual-styles.html">
@@ -105,20 +95,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
     </style>
 
-    <!--<iron-ajax-->
-            <!--auto-->
-            <!--url="../data/how-to-start-guides.json"-->
-            <!--handle-as="json"-->
-            <!--last-response="{{guides}}"-->
-            <!--debounce-duration="300"></iron-ajax>-->
-
-    <firebase-app
-            auth-domain="beesual-c4c0b.firebaseapp.com"
-            database-url="https://beesual-c4c0b.firebaseio.com"
-            api-key="AIzaSyB8o9dm52-8NXNUaj5dVdX_3ODUXKcC92g"
-            storage-bucket="beesual-c4c0b.appspot.com"
-            messaging-sender-id="205972790689">
-    </firebase-app>
+    <firebase-query
+            id="query"
+            path="/howToStart"
+            data="{{guides}}">
+    </firebase-query>
 
     <div class="page-container">
 
@@ -140,11 +121,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                 </div>
               </div>
               <div class="card-actions">
-                <template is="dom-repeat" items="[[item.actions]]">
-                  <a class="flat-button-link" href="/how-to-start/[[item.link]]">
-                    <paper-button class="flat-button">[[item.name]]</paper-button>
+                  <a class="flat-button-link" href="/how-to-start/[[item.actionLink]]">
+                    <paper-button class="flat-button">[[item.actionText]]</paper-button>
                   </a>
-                </template>
               </div>
             </div>
           </div>
@@ -156,7 +135,16 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
   <script>
     class BeesualHowToStart extends Polymer.Element {
-      static get is() { return 'beesual-how-to-start'; }
+      static get is() {
+        return 'beesual-how-to-start';
+      }
+      static get properties() {
+        return {
+          guides: {
+            type: Object
+          }
+        }
+      }
     }
 
     window.customElements.define(BeesualHowToStart.is, BeesualHowToStart);
