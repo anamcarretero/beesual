@@ -1,0 +1,120 @@
+<link rel="import" href="../bower_components/polymer/polymer-element.html">
+<link rel="import" href="beesual-styles/beesual-styles.html">
+<!--<link rel="import" href="../bower_components/iron-ajax/iron-ajax.html">-->
+<link rel="import" href="../bower_components/app-route/app-route.html">
+<link rel="import" href="../bower_components/polymer/lib/utils/debounce.html">
+
+<link rel="import" href="../bower_components/polymerfire/firebase-query.html">
+<link rel="import" href="../bower_components/polymerfire/firebase-database-script.html">
+
+
+<dom-module id="beesual-guides">
+    <template>
+        <style include="beesual-styles">
+            :host {
+                display: block;
+                padding: 64px 10px;
+                background-color: white;
+            }
+
+            video.video {
+                height: auto;
+                width: 60%;
+                display: block;
+                margin: 0 auto;
+            }
+
+        </style>
+
+        <!--<iron-ajax-->
+                <!--auto-->
+                <!--url="../data/[[routeData.guideName]]-guide.json"-->
+                <!--handle-as="json"-->
+                <!--last-response="{{guide}}"-->
+                <!--debounce-duration="300"></iron-ajax>-->
+
+        <firebase-query
+                id="query"
+                path="/howToStartGuides"
+                data="{{guides}}">
+        </firebase-query>
+
+        <app-route
+                route="{{route}}"
+                pattern="/:guideName"
+                data="{{routeData}}"
+                tail="{{subroute}}"
+                active="{{isActive}}">
+        </app-route>
+
+        <div class="page-container">
+            <video id="video" controls class="video">
+                <source src$="[[guide.videoPath]]" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+            </video>
+        </div>
+    </template>
+
+    <script>
+        class BeesualGuides extends Polymer.Element {
+            static get is() { return 'beesual-guides'; }
+            static get properties() {
+                return {
+                    guides: {
+                        type: Object,
+                        observer: '_guidesChanged'
+                    },
+                    guideName: {
+                        type: String,
+                        reflectToAttribute: true
+                    },
+                    routeData: Object,
+                    subroute: String,
+                    guide: {
+                        type: Object,
+                        observer: 'loadVideo'
+                    },
+                    isActive: {
+                        type: Boolean,
+                        observer: '_manageVideo'
+                    }
+                };
+            }
+            loadVideo() {
+                var that = this;
+                Polymer.Async.animationFrame.run(function() {
+                    that.shadowRoot.querySelector('#video').load();
+                });
+            }
+
+            _manageVideo(isPageActive) {
+                var video = this.shadowRoot.querySelector('#video');
+                if(!isPageActive) {
+                    try {
+                        video.pause();
+                    }
+                    catch(error) {
+                        console.log('error loadin video');
+                    }
+                }
+            }
+
+            _guidesChanged() {
+                if(this.guides !== undefined && this.guides.length > 0) {
+                    for(var i = 0; i<this.guides.length; i++) {
+                        if (this.guides[i].guideName === this.routeData.guideName.concat('-guide')) {
+                            this.guide = this.guides[i];
+                            //Stop of looking for
+                            i = this.guides.length;
+                        }
+                    }
+                }
+            }
+
+//            currentGuide(guide) {
+//                guide !== undefined ? (guide.guideName === this.routeData.guideName) : false;
+//            }
+        }
+
+        window.customElements.define(BeesualGuides.is, BeesualGuides);
+    </script>
+</dom-module>

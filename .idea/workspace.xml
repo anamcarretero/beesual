@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74b8860a-a15f-4f4b-968c-6c8b16432607" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/beesual-get-inspired.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/beesual-guides.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/get-inspired.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/beesual-app.html" afterPath="$PROJECT_DIR$/src/beesual-app.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/beesual-how-to-start.html" afterPath="$PROJECT_DIR$/src/beesual-how-to-start.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/polymer.json" afterPath="$PROJECT_DIR$/polymer.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="beesual-web.iws" />
@@ -24,7 +28,7 @@
     <favorites_list name="beesual-web" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.53186816">
+    <splitter split-orientation="horizontal" split-proportion="0.44959128">
       <split-first>
         <leaf>
           <file leaf-file-name="shared-styles.html" pinned="false" current-in-tab="false">
@@ -41,8 +45,11 @@
             <entry file="file://$PROJECT_DIR$/bower.json">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-                  <folding />
+                  <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+                  <folding>
+                    <marker date="1513673183812" expanded="true" signature="0:1258" placeholder="{&quot;name&quot;: &quot;polymer-starter-kit&quot;...}" />
+                    <marker date="1513673183812" expanded="true" signature="153:1095" placeholder="{&quot;app-layout&quot;: &quot;PolymerElements/app-layout#^2.0.0&quot;...}" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -60,7 +67,7 @@
           <file leaf-file-name="beesual-home.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/beesual-home.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="55.037037">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="123" column="4" selection-start-line="123" selection-start-column="4" selection-end-line="123" selection-end-column="4" />
                   <folding />
                 </state>
@@ -82,8 +89,8 @@
           <file leaf-file-name="beesual-how-to-start.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/beesual-how-to-start.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.54347825">
-                  <caret line="144" column="11" selection-start-line="144" selection-start-column="11" selection-end-line="144" selection-end-column="11" />
+                <state vertical-scroll-proportion="5.1202345">
+                  <caret line="97" column="4" selection-start-line="97" selection-start-column="4" selection-end-line="101" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -103,55 +110,76 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="beesual-app.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="beesual-app.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/beesual-app.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state vertical-scroll-proportion="1.840708">
+                  <caret line="202" column="78" selection-start-line="202" selection-start-column="78" selection-end-line="202" selection-end-column="78" />
                   <folding>
-                    <element signature="n#style#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-                    <element signature="e#1740#1850#0" expanded="false" />
-                    <element signature="e#1906#1938#0" expanded="false" />
-                    <element signature="e#2000#2032#0" expanded="false" />
-                    <element signature="e#2051#2137#0" expanded="false" />
-                    <element signature="e#2175#2244#0" expanded="false" />
-                    <element signature="e#2281#2336#0" expanded="false" />
-                    <element signature="e#2357#2390#0" expanded="false" />
-                    <element signature="e#2413#2572#0" expanded="false" />
-                    <element signature="e#2609#2667#0" expanded="false" />
-                    <element signature="e#2686#2747#0" expanded="false" />
-                    <element signature="e#2772#2853#0" expanded="false" />
-                    <element signature="e#2874#3019#0" expanded="false" />
-                    <element signature="e#3046#3313#0" expanded="false" />
-                    <element signature="e#3346#3402#0" expanded="false" />
-                    <element signature="e#3443#3472#0" expanded="false" />
-                    <element signature="e#3519#3692#0" expanded="false" />
-                    <element signature="e#3758#3806#0" expanded="false" />
-                    <element signature="e#3827#3890#0" expanded="false" />
-                    <element signature="e#3913#3993#0" expanded="false" />
+                    <element signature="e#1798#1908#0" expanded="false" />
+                    <element signature="e#1964#1996#0" expanded="false" />
+                    <element signature="e#2058#2090#0" expanded="false" />
+                    <element signature="e#2109#2195#0" expanded="false" />
+                    <element signature="e#2233#2302#0" expanded="false" />
+                    <element signature="e#2339#2394#0" expanded="false" />
+                    <element signature="e#2415#2448#0" expanded="false" />
+                    <element signature="e#2471#2630#0" expanded="false" />
+                    <element signature="e#2667#2725#0" expanded="false" />
+                    <element signature="e#2744#2805#0" expanded="false" />
+                    <element signature="e#2932#3077#0" expanded="false" />
+                    <element signature="e#3104#3371#0" expanded="false" />
+                    <element signature="e#3404#3460#0" expanded="false" />
+                    <element signature="e#3501#3530#0" expanded="false" />
+                    <element signature="e#3577#3750#0" expanded="false" />
+                    <element signature="e#3816#3864#0" expanded="false" />
+                    <element signature="e#3885#3948#0" expanded="false" />
+                    <element signature="e#3972#4052#0" expanded="false" />
                     <element signature="n#app-location#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
                     <element signature="n#app-route#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-                    <element signature="n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
                     <element signature="n#app-drawer#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
                     <element signature="n#iron-selector#0;n#app-drawer#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-                    <element signature="n#app-header-layout#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-                    <element signature="n#app-header#0;n#app-header-layout#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-                    <element signature="n#div#0;n#app-header#0;n#app-header-layout#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-                    <element signature="n#div#0;n#div#0;n#app-header#0;n#app-header-layout#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-                    <element signature="n#iron-selector#0;n#div#0;n#div#0;n#app-header#0;n#app-header-layout#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-                    <element signature="n#iron-pages#0;n#app-header-layout#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-                    <element signature="e#6922#7292#0" expanded="false" />
-                    <element signature="e#6939#7283#0" expanded="false" />
-                    <element signature="e#6957#7072#0" expanded="false" />
-                    <element signature="e#7141#7207#0" expanded="false" />
-                    <element signature="e#7323#7407#0" expanded="false" />
-                    <element signature="e#7340#7398#0" expanded="false" />
-                    <element signature="e#7439#7769#0" expanded="false" />
-                    <element signature="e#7449#7521#0" expanded="false" />
-                    <element signature="e#7717#7761#0" expanded="false" />
-                    <element signature="e#7796#8079#0" expanded="false" />
-                    <element signature="e#8102#8142#0" expanded="false" />
+                    <element signature="e#7348#7718#0" expanded="false" />
+                    <element signature="e#7365#7709#0" expanded="false" />
+                    <element signature="e#7383#7498#0" expanded="false" />
+                    <element signature="e#7567#7633#0" expanded="false" />
+                    <element signature="e#7749#7833#0" expanded="false" />
+                    <element signature="e#7766#7824#0" expanded="false" />
+                    <element signature="e#7865#8195#0" expanded="false" />
+                    <element signature="e#7875#7947#0" expanded="false" />
+                    <element signature="e#8143#8187#0" expanded="false" />
+                    <element signature="e#8222#8505#0" expanded="false" />
+                    <element signature="e#8528#8568#0" expanded="false" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="beesual-guides.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/beesual-guides.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.7302053">
+                  <caret line="103" column="91" selection-start-line="103" selection-start-column="91" selection-end-line="103" selection-end-column="91" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="polymer.json" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/polymer.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-6.6666665">
+                  <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="beesual-get-inspired.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/beesual-get-inspired.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-2.5681818">
+                  <caret line="54" column="30" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -179,7 +207,7 @@
           <file leaf-file-name="how-to-start-guides.json" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/data/how-to-start-guides.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-14.666667">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="22" column="52" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="52" />
                   <folding />
                 </state>
@@ -199,7 +227,7 @@
           <file leaf-file-name="beesual-resources.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/beesual-resources.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-5.6296296">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="92" column="32" selection-start-line="92" selection-start-column="32" selection-end-line="92" selection-end-column="32" />
                   <folding />
                 </state>
@@ -209,7 +237,7 @@
           <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/package.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.0">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding />
                 </state>
@@ -264,9 +292,12 @@
         <option value="$PROJECT_DIR$/src/beesual-home.html" />
         <option value="$PROJECT_DIR$/data/resources.json" />
         <option value="$PROJECT_DIR$/data/how-to-start-guides.json" />
+        <option value="$PROJECT_DIR$/src/beesual-how-to-start.html" />
+        <option value="$PROJECT_DIR$/data/get-inspired.json" />
+        <option value="$PROJECT_DIR$/src/beesual-get-inspired.html" />
         <option value="$PROJECT_DIR$/polymer.json" />
         <option value="$PROJECT_DIR$/src/beesual-app.html" />
-        <option value="$PROJECT_DIR$/src/beesual-how-to-start.html" />
+        <option value="$PROJECT_DIR$/src/beesual-guides.html" />
       </list>
     </option>
   </component>
@@ -285,9 +316,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="24" />
+    <option name="y" value="-4" />
     <option name="width" value="1615" />
-    <option name="height" value="1026" />
+    <option name="height" value="1054" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -312,6 +343,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -327,6 +360,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="beesual" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beesual-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beesual" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="video" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -360,8 +407,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -380,6 +425,7 @@
       <recent name="$PROJECT_DIR$/video" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/video" />
       <recent name="$PROJECT_DIR$/images/how-to-start" />
       <recent name="$PROJECT_DIR$/fonts" />
     </key>
@@ -450,17 +496,17 @@
     <option name="totallyTimeSpent" value="11827000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1615" height="1026" extended-state="6" />
-    <editor active="true" />
+    <frame x="65" y="-4" width="1615" height="1054" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14258794" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.114321604" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25268817" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5064516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -492,43 +538,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="119" column="7" selection-start-line="119" selection-start-column="7" selection-end-line="119" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/how-to-start-guides.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/beesual-styles/beesual-typography.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/beesual-resources.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="86" column="48" selection-start-line="86" selection-start-column="48" selection-end-line="86" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/resources.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -561,48 +574,39 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-            <element signature="e#1740#1850#0" expanded="false" />
-            <element signature="e#1906#1938#0" expanded="false" />
-            <element signature="e#2000#2032#0" expanded="false" />
-            <element signature="e#2051#2137#0" expanded="false" />
-            <element signature="e#2175#2244#0" expanded="false" />
-            <element signature="e#2281#2336#0" expanded="false" />
-            <element signature="e#2357#2390#0" expanded="false" />
-            <element signature="e#2413#2572#0" expanded="false" />
-            <element signature="e#2609#2667#0" expanded="false" />
-            <element signature="e#2686#2747#0" expanded="false" />
-            <element signature="e#2772#2853#0" expanded="false" />
-            <element signature="e#2874#3019#0" expanded="false" />
-            <element signature="e#3046#3313#0" expanded="false" />
-            <element signature="e#3346#3402#0" expanded="false" />
-            <element signature="e#3443#3472#0" expanded="false" />
-            <element signature="e#3519#3692#0" expanded="false" />
-            <element signature="e#3758#3806#0" expanded="false" />
-            <element signature="e#3827#3890#0" expanded="false" />
-            <element signature="e#3913#3993#0" expanded="false" />
+            <element signature="e#1798#1908#0" expanded="false" />
+            <element signature="e#1964#1996#0" expanded="false" />
+            <element signature="e#2058#2090#0" expanded="false" />
+            <element signature="e#2109#2195#0" expanded="false" />
+            <element signature="e#2233#2302#0" expanded="false" />
+            <element signature="e#2339#2394#0" expanded="false" />
+            <element signature="e#2415#2448#0" expanded="false" />
+            <element signature="e#2471#2630#0" expanded="false" />
+            <element signature="e#2667#2725#0" expanded="false" />
+            <element signature="e#2744#2805#0" expanded="false" />
+            <element signature="e#2932#3077#0" expanded="false" />
+            <element signature="e#3104#3371#0" expanded="false" />
+            <element signature="e#3404#3460#0" expanded="false" />
+            <element signature="e#3501#3530#0" expanded="false" />
+            <element signature="e#3577#3750#0" expanded="false" />
+            <element signature="e#3816#3864#0" expanded="false" />
+            <element signature="e#3885#3948#0" expanded="false" />
+            <element signature="e#3972#4052#0" expanded="false" />
             <element signature="n#app-location#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
             <element signature="n#app-route#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-            <element signature="n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
             <element signature="n#app-drawer#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
             <element signature="n#iron-selector#0;n#app-drawer#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-            <element signature="n#app-header-layout#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-            <element signature="n#app-header#0;n#app-header-layout#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#app-header#0;n#app-header-layout#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#app-header#0;n#app-header-layout#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-            <element signature="n#iron-selector#0;n#div#0;n#div#0;n#app-header#0;n#app-header-layout#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-            <element signature="n#iron-pages#0;n#app-header-layout#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-            <element signature="e#6922#7292#0" expanded="false" />
-            <element signature="e#6939#7283#0" expanded="false" />
-            <element signature="e#6957#7072#0" expanded="false" />
-            <element signature="e#7141#7207#0" expanded="false" />
-            <element signature="e#7323#7407#0" expanded="false" />
-            <element signature="e#7340#7398#0" expanded="false" />
-            <element signature="e#7439#7769#0" expanded="false" />
-            <element signature="e#7449#7521#0" expanded="false" />
-            <element signature="e#7717#7761#0" expanded="false" />
-            <element signature="e#7796#8079#0" expanded="false" />
-            <element signature="e#8102#8142#0" expanded="false" />
+            <element signature="e#7348#7718#0" expanded="false" />
+            <element signature="e#7365#7709#0" expanded="false" />
+            <element signature="e#7383#7498#0" expanded="false" />
+            <element signature="e#7567#7633#0" expanded="false" />
+            <element signature="e#7749#7833#0" expanded="false" />
+            <element signature="e#7766#7824#0" expanded="false" />
+            <element signature="e#7865#8195#0" expanded="false" />
+            <element signature="e#7875#7947#0" expanded="false" />
+            <element signature="e#8143#8187#0" expanded="false" />
+            <element signature="e#8222#8505#0" expanded="false" />
+            <element signature="e#8528#8568#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -659,7 +663,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-          <folding />
+          <folding>
+            <marker date="1513673183812" expanded="true" signature="0:1258" placeholder="{&quot;name&quot;: &quot;polymer-starter-kit&quot;...}" />
+            <marker date="1513673183812" expanded="true" signature="153:1095" placeholder="{&quot;app-layout&quot;: &quot;PolymerElements/app-layout#^2.0.0&quot;...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -700,48 +707,39 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="112" column="16" selection-start-line="112" selection-start-column="16" selection-end-line="112" selection-end-column="16" />
           <folding>
-            <element signature="n#style#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-            <element signature="e#1740#1850#0" expanded="false" />
-            <element signature="e#1906#1938#0" expanded="false" />
-            <element signature="e#2000#2032#0" expanded="false" />
-            <element signature="e#2051#2137#0" expanded="false" />
-            <element signature="e#2175#2244#0" expanded="false" />
-            <element signature="e#2281#2336#0" expanded="false" />
-            <element signature="e#2357#2390#0" expanded="false" />
-            <element signature="e#2413#2572#0" expanded="false" />
-            <element signature="e#2609#2667#0" expanded="false" />
-            <element signature="e#2686#2747#0" expanded="false" />
-            <element signature="e#2772#2853#0" expanded="false" />
-            <element signature="e#2874#3019#0" expanded="false" />
-            <element signature="e#3046#3313#0" expanded="false" />
-            <element signature="e#3346#3402#0" expanded="false" />
-            <element signature="e#3443#3472#0" expanded="false" />
-            <element signature="e#3519#3692#0" expanded="false" />
-            <element signature="e#3758#3806#0" expanded="false" />
-            <element signature="e#3827#3890#0" expanded="false" />
-            <element signature="e#3913#3993#0" expanded="false" />
+            <element signature="e#1798#1908#0" expanded="false" />
+            <element signature="e#1964#1996#0" expanded="false" />
+            <element signature="e#2058#2090#0" expanded="false" />
+            <element signature="e#2109#2195#0" expanded="false" />
+            <element signature="e#2233#2302#0" expanded="false" />
+            <element signature="e#2339#2394#0" expanded="false" />
+            <element signature="e#2415#2448#0" expanded="false" />
+            <element signature="e#2471#2630#0" expanded="false" />
+            <element signature="e#2667#2725#0" expanded="false" />
+            <element signature="e#2744#2805#0" expanded="false" />
+            <element signature="e#2932#3077#0" expanded="false" />
+            <element signature="e#3104#3371#0" expanded="false" />
+            <element signature="e#3404#3460#0" expanded="false" />
+            <element signature="e#3501#3530#0" expanded="false" />
+            <element signature="e#3577#3750#0" expanded="false" />
+            <element signature="e#3816#3864#0" expanded="false" />
+            <element signature="e#3885#3948#0" expanded="false" />
+            <element signature="e#3972#4052#0" expanded="false" />
             <element signature="n#app-location#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
             <element signature="n#app-route#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-            <element signature="n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
             <element signature="n#app-drawer#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
             <element signature="n#iron-selector#0;n#app-drawer#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-            <element signature="n#app-header-layout#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-            <element signature="n#app-header#0;n#app-header-layout#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#app-header#0;n#app-header-layout#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#app-header#0;n#app-header-layout#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-            <element signature="n#iron-selector#0;n#div#0;n#div#0;n#app-header#0;n#app-header-layout#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-            <element signature="n#iron-pages#0;n#app-header-layout#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-            <element signature="e#6922#7292#0" expanded="false" />
-            <element signature="e#6939#7283#0" expanded="false" />
-            <element signature="e#6957#7072#0" expanded="false" />
-            <element signature="e#7141#7207#0" expanded="false" />
-            <element signature="e#7323#7407#0" expanded="false" />
-            <element signature="e#7340#7398#0" expanded="false" />
-            <element signature="e#7439#7769#0" expanded="false" />
-            <element signature="e#7449#7521#0" expanded="false" />
-            <element signature="e#7717#7761#0" expanded="false" />
-            <element signature="e#7796#8079#0" expanded="false" />
-            <element signature="e#8102#8142#0" expanded="false" />
+            <element signature="e#7348#7718#0" expanded="false" />
+            <element signature="e#7365#7709#0" expanded="false" />
+            <element signature="e#7383#7498#0" expanded="false" />
+            <element signature="e#7567#7633#0" expanded="false" />
+            <element signature="e#7749#7833#0" expanded="false" />
+            <element signature="e#7766#7824#0" expanded="false" />
+            <element signature="e#7865#8195#0" expanded="false" />
+            <element signature="e#7875#7947#0" expanded="false" />
+            <element signature="e#8143#8187#0" expanded="false" />
+            <element signature="e#8222#8505#0" expanded="false" />
+            <element signature="e#8528#8568#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -823,48 +821,39 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-            <element signature="e#1740#1850#0" expanded="false" />
-            <element signature="e#1906#1938#0" expanded="false" />
-            <element signature="e#2000#2032#0" expanded="false" />
-            <element signature="e#2051#2137#0" expanded="false" />
-            <element signature="e#2175#2244#0" expanded="false" />
-            <element signature="e#2281#2336#0" expanded="false" />
-            <element signature="e#2357#2390#0" expanded="false" />
-            <element signature="e#2413#2572#0" expanded="false" />
-            <element signature="e#2609#2667#0" expanded="false" />
-            <element signature="e#2686#2747#0" expanded="false" />
-            <element signature="e#2772#2853#0" expanded="false" />
-            <element signature="e#2874#3019#0" expanded="false" />
-            <element signature="e#3046#3313#0" expanded="false" />
-            <element signature="e#3346#3402#0" expanded="false" />
-            <element signature="e#3443#3472#0" expanded="false" />
-            <element signature="e#3519#3692#0" expanded="false" />
-            <element signature="e#3758#3806#0" expanded="false" />
-            <element signature="e#3827#3890#0" expanded="false" />
-            <element signature="e#3913#3993#0" expanded="false" />
+            <element signature="e#1798#1908#0" expanded="false" />
+            <element signature="e#1964#1996#0" expanded="false" />
+            <element signature="e#2058#2090#0" expanded="false" />
+            <element signature="e#2109#2195#0" expanded="false" />
+            <element signature="e#2233#2302#0" expanded="false" />
+            <element signature="e#2339#2394#0" expanded="false" />
+            <element signature="e#2415#2448#0" expanded="false" />
+            <element signature="e#2471#2630#0" expanded="false" />
+            <element signature="e#2667#2725#0" expanded="false" />
+            <element signature="e#2744#2805#0" expanded="false" />
+            <element signature="e#2932#3077#0" expanded="false" />
+            <element signature="e#3104#3371#0" expanded="false" />
+            <element signature="e#3404#3460#0" expanded="false" />
+            <element signature="e#3501#3530#0" expanded="false" />
+            <element signature="e#3577#3750#0" expanded="false" />
+            <element signature="e#3816#3864#0" expanded="false" />
+            <element signature="e#3885#3948#0" expanded="false" />
+            <element signature="e#3972#4052#0" expanded="false" />
             <element signature="n#app-location#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
             <element signature="n#app-route#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-            <element signature="n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
             <element signature="n#app-drawer#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
             <element signature="n#iron-selector#0;n#app-drawer#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-            <element signature="n#app-header-layout#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-            <element signature="n#app-header#0;n#app-header-layout#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#app-header#0;n#app-header-layout#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#app-header#0;n#app-header-layout#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-            <element signature="n#iron-selector#0;n#div#0;n#div#0;n#app-header#0;n#app-header-layout#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-            <element signature="n#iron-pages#0;n#app-header-layout#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-            <element signature="e#6922#7292#0" expanded="false" />
-            <element signature="e#6939#7283#0" expanded="false" />
-            <element signature="e#6957#7072#0" expanded="false" />
-            <element signature="e#7141#7207#0" expanded="false" />
-            <element signature="e#7323#7407#0" expanded="false" />
-            <element signature="e#7340#7398#0" expanded="false" />
-            <element signature="e#7439#7769#0" expanded="false" />
-            <element signature="e#7449#7521#0" expanded="false" />
-            <element signature="e#7717#7761#0" expanded="false" />
-            <element signature="e#7796#8079#0" expanded="false" />
-            <element signature="e#8102#8142#0" expanded="false" />
+            <element signature="e#7348#7718#0" expanded="false" />
+            <element signature="e#7365#7709#0" expanded="false" />
+            <element signature="e#7383#7498#0" expanded="false" />
+            <element signature="e#7567#7633#0" expanded="false" />
+            <element signature="e#7749#7833#0" expanded="false" />
+            <element signature="e#7766#7824#0" expanded="false" />
+            <element signature="e#7865#8195#0" expanded="false" />
+            <element signature="e#7875#7947#0" expanded="false" />
+            <element signature="e#8143#8187#0" expanded="false" />
+            <element signature="e#8222#8505#0" expanded="false" />
+            <element signature="e#8528#8568#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -895,8 +884,11 @@
     <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-          <folding />
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+          <folding>
+            <marker date="1513673183812" expanded="true" signature="0:1258" placeholder="{&quot;name&quot;: &quot;polymer-starter-kit&quot;...}" />
+            <marker date="1513673183812" expanded="true" signature="153:1095" placeholder="{&quot;app-layout&quot;: &quot;PolymerElements/app-layout#^2.0.0&quot;...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -966,15 +958,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.783871">
           <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/polymer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63322884">
-          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -988,7 +971,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/beesual-resources.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.6296296">
+        <state vertical-scroll-proportion="0.0">
           <caret line="92" column="32" selection-start-line="92" selection-start-column="32" selection-end-line="92" selection-end-column="32" />
           <folding />
         </state>
@@ -996,7 +979,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/beesual-home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="55.037037">
+        <state vertical-scroll-proportion="0.0">
           <caret line="123" column="4" selection-start-line="123" selection-start-column="4" selection-end-line="123" selection-end-column="4" />
           <folding />
         </state>
@@ -1004,67 +987,95 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data/how-to-start-guides.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.666667">
+        <state vertical-scroll-proportion="0.0">
           <caret line="22" column="52" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/get-inspired.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5463744">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/beesual-get-inspired.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5681818">
+          <caret line="54" column="30" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video/loom.mp4">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/beesual-how-to-start.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.1202345">
+          <caret line="97" column="4" selection-start-line="97" selection-start-column="4" selection-end-line="101" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polymer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.6666665">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/beesual-app.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="1.840708">
+          <caret line="202" column="78" selection-start-line="202" selection-start-column="78" selection-end-line="202" selection-end-column="78" />
           <folding>
-            <element signature="n#style#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-            <element signature="e#1740#1850#0" expanded="false" />
-            <element signature="e#1906#1938#0" expanded="false" />
-            <element signature="e#2000#2032#0" expanded="false" />
-            <element signature="e#2051#2137#0" expanded="false" />
-            <element signature="e#2175#2244#0" expanded="false" />
-            <element signature="e#2281#2336#0" expanded="false" />
-            <element signature="e#2357#2390#0" expanded="false" />
-            <element signature="e#2413#2572#0" expanded="false" />
-            <element signature="e#2609#2667#0" expanded="false" />
-            <element signature="e#2686#2747#0" expanded="false" />
-            <element signature="e#2772#2853#0" expanded="false" />
-            <element signature="e#2874#3019#0" expanded="false" />
-            <element signature="e#3046#3313#0" expanded="false" />
-            <element signature="e#3346#3402#0" expanded="false" />
-            <element signature="e#3443#3472#0" expanded="false" />
-            <element signature="e#3519#3692#0" expanded="false" />
-            <element signature="e#3758#3806#0" expanded="false" />
-            <element signature="e#3827#3890#0" expanded="false" />
-            <element signature="e#3913#3993#0" expanded="false" />
+            <element signature="e#1798#1908#0" expanded="false" />
+            <element signature="e#1964#1996#0" expanded="false" />
+            <element signature="e#2058#2090#0" expanded="false" />
+            <element signature="e#2109#2195#0" expanded="false" />
+            <element signature="e#2233#2302#0" expanded="false" />
+            <element signature="e#2339#2394#0" expanded="false" />
+            <element signature="e#2415#2448#0" expanded="false" />
+            <element signature="e#2471#2630#0" expanded="false" />
+            <element signature="e#2667#2725#0" expanded="false" />
+            <element signature="e#2744#2805#0" expanded="false" />
+            <element signature="e#2932#3077#0" expanded="false" />
+            <element signature="e#3104#3371#0" expanded="false" />
+            <element signature="e#3404#3460#0" expanded="false" />
+            <element signature="e#3501#3530#0" expanded="false" />
+            <element signature="e#3577#3750#0" expanded="false" />
+            <element signature="e#3816#3864#0" expanded="false" />
+            <element signature="e#3885#3948#0" expanded="false" />
+            <element signature="e#3972#4052#0" expanded="false" />
             <element signature="n#app-location#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
             <element signature="n#app-route#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-            <element signature="n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
             <element signature="n#app-drawer#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
             <element signature="n#iron-selector#0;n#app-drawer#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-            <element signature="n#app-header-layout#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-            <element signature="n#app-header#0;n#app-header-layout#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#app-header#0;n#app-header-layout#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#app-header#0;n#app-header-layout#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-            <element signature="n#iron-selector#0;n#div#0;n#div#0;n#app-header#0;n#app-header-layout#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-            <element signature="n#iron-pages#0;n#app-header-layout#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-            <element signature="e#6922#7292#0" expanded="false" />
-            <element signature="e#6939#7283#0" expanded="false" />
-            <element signature="e#6957#7072#0" expanded="false" />
-            <element signature="e#7141#7207#0" expanded="false" />
-            <element signature="e#7323#7407#0" expanded="false" />
-            <element signature="e#7340#7398#0" expanded="false" />
-            <element signature="e#7439#7769#0" expanded="false" />
-            <element signature="e#7449#7521#0" expanded="false" />
-            <element signature="e#7717#7761#0" expanded="false" />
-            <element signature="e#7796#8079#0" expanded="false" />
-            <element signature="e#8102#8142#0" expanded="false" />
+            <element signature="e#7348#7718#0" expanded="false" />
+            <element signature="e#7365#7709#0" expanded="false" />
+            <element signature="e#7383#7498#0" expanded="false" />
+            <element signature="e#7567#7633#0" expanded="false" />
+            <element signature="e#7749#7833#0" expanded="false" />
+            <element signature="e#7766#7824#0" expanded="false" />
+            <element signature="e#7865#8195#0" expanded="false" />
+            <element signature="e#7875#7947#0" expanded="false" />
+            <element signature="e#8143#8187#0" expanded="false" />
+            <element signature="e#8222#8505#0" expanded="false" />
+            <element signature="e#8528#8568#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/beesual-how-to-start.html">
+    <entry file="file://$PROJECT_DIR$/src/beesual-guides.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54347825">
-          <caret line="144" column="11" selection-start-line="144" selection-start-column="11" selection-end-line="144" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.7302053">
+          <caret line="103" column="91" selection-start-line="103" selection-start-column="91" selection-end-line="103" selection-end-column="91" />
           <folding />
         </state>
       </provider>

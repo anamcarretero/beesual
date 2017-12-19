@@ -1,0 +1,77 @@
+<link rel="import" href="../bower_components/polymer/polymer-element.html">
+<!--<link rel="import" href="../bower_components/polymerfire/firebase-app.html">-->
+
+<link rel="import" href="../bower_components/polymerfire/firebase-query.html">
+<link rel="import" href="../bower_components/polymerfire/firebase-database-script.html">
+
+<link rel="import" href="../bower_components/google-youtube/google-youtube.html">
+<!--<link rel="import" href="../bower_components/iron-ajax/iron-ajax.html">-->
+
+<link rel="import" href="beesual-styles/beesual-styles.html">
+
+<!--<link rel="import" href="../bower_components/polymer/lib/utils/debounce.html">-->
+<!--<link rel="import" href="shared-styles.html">-->
+
+<dom-module id="beesual-get-inspired">
+    <template>
+        <style include="beesual-styles">
+            :host {
+                display: block;
+                padding: 48px 0;
+            }
+
+            .video-container {
+                -ms-flex-wrap: wrap;
+                -webkit-flex-wrap: wrap;
+                flex-wrap: wrap;
+            }
+
+            .video-wrapper {
+                box-sizing: border-box;
+                padding: 8px;
+                margin: 0;
+            }
+
+        </style>
+
+        <firebase-query
+                id="query"
+                path="/getInspired"
+                data="{{videos}}">
+        </firebase-query>
+
+        <div class="page-container">
+            <div class="row-block video-container">
+                <template is="dom-repeat" items="[[videos]]" as="video">
+                    <template is="dom-if" if="[[video.isFromYoutube]]">
+                        <div class="video-wrapper">
+                            <google-youtube
+                                    video-id="[[video.videoId]]"
+                                    height="190px"
+                                    width="380px"
+                                    rel="0"
+                                    start="5"
+                                    autoplay="0"></google-youtube>
+                        </div>
+                    </template>
+                </template>
+
+            </div>
+        </div>
+
+    </template>
+
+    <script>
+        class BeesualGetInspired extends Polymer.Element {
+            static get is() { return 'beesual-get-inspired'; }
+            static get properties() {
+                return {
+                    videos: {
+                        type: Object
+                    }
+                }
+            }
+        }
+        window.customElements.define(BeesualGetInspired.is, BeesualGetInspired);
+    </script>
+</dom-module>
