@@ -40,6 +40,12 @@
         display: none;
       }
 
+      app-drawer {
+        --app-drawer-content-container: {
+           background-color: white;
+           color: var(--blue-indico-dark-gray);
+         }
+      }
       /*TODO: show drawer on mobile*/
       [drawer-toggle] {
         display: none;
@@ -61,6 +67,10 @@
 
       .drawer-list {
         margin: 0 20px;
+      }
+
+      .drawer-list a:focus {
+        outline: var(--blue-indico-primary-lighter) auto 5px;
       }
 
       .drawer-list a {
@@ -130,8 +140,23 @@
         background-color: transparent;
       }
 
+      .main-title-wrapper {
+        text-decoration: none;
+        display: block;
+        margin: 0;
+        padding: 0;
+        color: white;
+      }
+
+      .main-title-wrapper:hover {
+        cursor: pointer;
+      }
+
       [main-title] {
-        font-size: 28px;
+        padding-top: 3px;
+        padding-left: 8px;
+        box-sizing: border-box;
+        font-size: 24px;
         font-family: Roboto;
       }
 
@@ -142,7 +167,62 @@
       }
 
       .login-block {
-        width: 158px;
+        width: 130px;
+      }
+
+      @media (min-width: 1024px) and (max-width: 1279px) {
+
+        .page-container {
+          display: block;
+          max-width: 960px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+
+      @media (min-width: 768px) and (max-width: 1023px) {
+
+        .page-container {
+          display: block;
+          max-width: 720px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        .navigation-list {
+          display: none;
+        }
+
+        [drawer-toggle] {
+          display: block;
+        }
+
+        .login-block {
+          flex: 1;
+        }
+      }
+
+      @media (max-width: 767px) {
+
+        .page-container {
+          display: block;
+          max-width: 360px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        .navigation-list {
+          display: none;
+        }
+
+        [drawer-toggle] {
+          display: block;
+        }
+
+        .login-block {
+          flex: 1;
+        }
+
       }
 
     </style>
@@ -161,12 +241,13 @@
 
     <app-drawer-layout narrow="{{narrow}}" force-narrow>
       <!-- Drawer content -->
-      <app-drawer id="drawer" slot="drawer" swipe-open="[[narrow]]">
-        <app-toolbar>Menu</app-toolbar>
+      <app-drawer id="drawer" slot="drawer" position="left">
+        <app-toolbar>B E E S U A L</app-toolbar>
         <iron-selector selected="[[page]]" attr-for-selected="name" class="drawer-list" role="navigation">
-          <a name="home" href="[[rootPath]]home">Home</a>
-          <!--<a name="view2" href="[[rootPath]]view2">View Two</a>-->
-          <!--<a name="view3" href="[[rootPath]]view3">View Three</a>-->
+          <a name="home" href="[[rootPath]]home">Inicio</a>
+          <a name="how-to-start" href="[[rootPath]]how-to-start">Cómo empezar</a>
+          <a name="resources" href="[[rootPath]]resources">Recursos</a>
+          <a name="get-inspired" href="[[rootPath]]get-inspited">Inspírate</a>
         </iron-selector>
       </app-drawer>
 
@@ -176,17 +257,17 @@
         <app-header slot="header" condenses fixed effects="waterfall">
           <div class="page-container">
             <div class="row-block toolbar-list">
-              <paper-icon-button icon="my-icons:menu" drawer-toggle></paper-icon-button>
-              <div main-title>B E E S U A L</div>
+              <a class="main-title-wrapper" href="/home"><div main-title>B E E S U A L</div></a>
               <iron-selector selected="[[page]]" class="row-block navigation-list" attr-for-selected="name" role="navigation">
                 <a class="toolbar-list-item" name="home" href="[[rootPath]]home">Inicio</a>
                 <a class="toolbar-list-item" name="how-to-start" href="[[rootPath]]how-to-start">Cómo empezar</a>
                 <a class="toolbar-list-item" name="resources" href="[[rootPath]]resources">Recursos</a>
-                <a class="toolbar-list-item" name="get-inspired" href="[[rootPath]]get-inspired">Get inspired</a>
+                <a class="toolbar-list-item" name="get-inspired" href="[[rootPath]]get-inspired">Inspírate</a>
 
                 <!--<a name="view3" href="[[rootPath]]view3">View Three</a>-->
               </iron-selector>
               <div class="login-block"></div>
+              <paper-icon-button icon="my-icons:menu" drawer-toggle></paper-icon-button>
             </div>
           </div>
         </app-header>
@@ -202,7 +283,7 @@
           <beesual-get-inspired name="get-inspired"></beesual-get-inspired>
           <beesual-guides name="guides" route="[[subroute]]"></beesual-guides>
           <!--<beesual-view3 name="view3"></beesual-view3>-->
-          <!--<beesual-view404 name="view404"></beesual-view404>-->
+          <beesual-view404 name="view404"></beesual-view404>
         </iron-pages>
       </app-header-layout>
     </app-drawer-layout>
@@ -237,6 +318,10 @@
           // This shouldn't be neccessary, but the Analyzer isn't picking up
           // Polymer.Element#rootPath
           rootPath: String,
+          narrow: {
+           type: String,
+            value: '1023px'
+          }
         };
       }
 

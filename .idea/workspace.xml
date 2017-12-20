@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74b8860a-a15f-4f4b-968c-6c8b16432607" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/how-to-start/card-header-shotcut.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/how-to-start/card-header-shotcut@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/how-to-start/card-header-shotcut@3x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/beesual-app.html" afterPath="$PROJECT_DIR$/src/beesual-app.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/beesual-how-to-start.html" afterPath="$PROJECT_DIR$/src/beesual-how-to-start.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="beesual-web.iws" />
@@ -25,14 +24,14 @@
     <favorites_list name="beesual-web" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5025792">
+    <splitter split-orientation="horizontal" split-proportion="0.38020423">
       <split-first>
         <leaf>
           <file leaf-file-name="shared-styles.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/beesual-styles/shared-styles.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="52" column="14" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="14" />
+                <state vertical-scroll-proportion="-62.666668">
+                  <caret line="101" column="13" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="13" />
                   <folding />
                 </state>
               </provider>
@@ -51,18 +50,8 @@
           <file leaf-file-name="beesual-colors.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/beesual-styles/beesual-colors.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="22" column="37" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="37" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="beesual-home.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/beesual-home.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="4.075472">
-                  <caret line="123" column="4" selection-start-line="123" selection-start-column="4" selection-end-line="123" selection-end-column="4" />
+                <state vertical-scroll-proportion="-8.0">
+                  <caret line="28" column="39" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="39" />
                   <folding />
                 </state>
               </provider>
@@ -80,11 +69,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="beesual-how-to-start.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="beesual-how-to-start.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/beesual-how-to-start.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="97" column="4" selection-start-line="97" selection-start-column="4" selection-end-line="101" selection-end-column="21" />
+                <state vertical-scroll-proportion="0.28070176">
+                  <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -117,42 +106,30 @@
           <file leaf-file-name="beesual-app.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/beesual-app.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="1.1207547">
-                  <caret line="202" column="78" selection-start-line="202" selection-start-column="78" selection-end-line="202" selection-end-column="78" />
+                <state vertical-scroll-proportion="0.33333334">
+                  <caret line="204" column="33" selection-start-line="204" selection-start-column="6" selection-end-line="204" selection-end-column="33" />
                   <folding>
                     <element signature="e#1798#1908#0" expanded="false" />
                     <element signature="e#1964#1996#0" expanded="false" />
-                    <element signature="e#2058#2090#0" expanded="false" />
-                    <element signature="e#2109#2195#0" expanded="false" />
-                    <element signature="e#2233#2302#0" expanded="false" />
-                    <element signature="e#2339#2394#0" expanded="false" />
-                    <element signature="e#2415#2448#0" expanded="false" />
-                    <element signature="e#2471#2630#0" expanded="false" />
-                    <element signature="e#2667#2725#0" expanded="false" />
-                    <element signature="e#2744#2805#0" expanded="false" />
-                    <element signature="e#2932#3077#0" expanded="false" />
-                    <element signature="e#3104#3371#0" expanded="false" />
-                    <element signature="e#3404#3460#0" expanded="false" />
-                    <element signature="e#3501#3530#0" expanded="false" />
-                    <element signature="e#3577#3750#0" expanded="false" />
-                    <element signature="e#3816#3864#0" expanded="false" />
-                    <element signature="e#3885#3948#0" expanded="false" />
-                    <element signature="e#3972#4052#0" expanded="false" />
+                    <element signature="e#2397#2466#0" expanded="false" />
+                    <element signature="e#2503#2558#0" expanded="false" />
+                    <element signature="e#2735#2894#0" expanded="false" />
+                    <element signature="e#2931#2989#0" expanded="false" />
+                    <element signature="e#3008#3069#0" expanded="false" />
+                    <element signature="e#3196#3341#0" expanded="false" />
+                    <element signature="e#3668#3724#0" expanded="false" />
+                    <element signature="e#3765#3794#0" expanded="false" />
+                    <element signature="e#4080#4128#0" expanded="false" />
+                    <element signature="e#4542#4622#0" expanded="false" />
                     <element signature="n#app-location#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
                     <element signature="n#app-route#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-                    <element signature="n#app-drawer#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-                    <element signature="n#iron-selector#0;n#app-drawer#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-                    <element signature="e#7348#7718#0" expanded="false" />
-                    <element signature="e#7365#7709#0" expanded="false" />
-                    <element signature="e#7383#7498#0" expanded="false" />
-                    <element signature="e#7567#7633#0" expanded="false" />
-                    <element signature="e#7749#7833#0" expanded="false" />
-                    <element signature="e#7766#7824#0" expanded="false" />
-                    <element signature="e#7865#8195#0" expanded="false" />
-                    <element signature="e#7875#7947#0" expanded="false" />
-                    <element signature="e#8143#8187#0" expanded="false" />
-                    <element signature="e#8222#8505#0" expanded="false" />
-                    <element signature="e#8528#8568#0" expanded="false" />
+                    <element signature="e#9069#9184#0" expanded="false" />
+                    <element signature="e#9520#9604#0" expanded="false" />
+                    <element signature="e#9537#9595#0" expanded="false" />
+                    <element signature="e#9636#9966#0" expanded="false" />
+                    <element signature="e#9646#9718#0" expanded="false" />
+                    <element signature="e#9914#9958#0" expanded="false" />
+                    <element signature="e#10299#10339#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -161,8 +138,8 @@
           <file leaf-file-name="beesual-guides.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/beesual-guides.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-17.0">
-                  <caret line="103" column="91" selection-start-line="103" selection-start-column="91" selection-end-line="103" selection-end-column="91" />
+                <state vertical-scroll-proportion="-7.0">
+                  <caret line="88" column="5" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
                   <folding />
                 </state>
               </provider>
@@ -296,12 +273,12 @@
         <option value="$PROJECT_DIR$/src/beesual-home.html" />
         <option value="$PROJECT_DIR$/data/resources.json" />
         <option value="$PROJECT_DIR$/data/how-to-start-guides.json" />
-        <option value="$PROJECT_DIR$/src/beesual-how-to-start.html" />
         <option value="$PROJECT_DIR$/data/get-inspired.json" />
         <option value="$PROJECT_DIR$/src/beesual-get-inspired.html" />
         <option value="$PROJECT_DIR$/polymer.json" />
-        <option value="$PROJECT_DIR$/src/beesual-app.html" />
         <option value="$PROJECT_DIR$/src/beesual-guides.html" />
+        <option value="$PROJECT_DIR$/src/beesual-app.html" />
+        <option value="$PROJECT_DIR$/src/beesual-how-to-start.html" />
       </list>
     </option>
   </component>
@@ -320,7 +297,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="1046" />
+    <option name="y" value="-4" />
     <option name="width" value="1615" />
     <option name="height" value="1054" />
   </component>
@@ -391,7 +368,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -405,11 +382,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="how-to-start" />
+              <option name="myItemId" value="beesual-styles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -532,16 +509,16 @@
     <option name="totallyTimeSpent" value="11827000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="1046" width="1615" height="1054" extended-state="6" />
-    <editor active="false" />
+    <frame x="65" y="-4" width="1615" height="1054" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30778894" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20037688" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3688172" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4784946" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -589,37 +566,25 @@
           <folding>
             <element signature="e#1798#1908#0" expanded="false" />
             <element signature="e#1964#1996#0" expanded="false" />
-            <element signature="e#2058#2090#0" expanded="false" />
-            <element signature="e#2109#2195#0" expanded="false" />
-            <element signature="e#2233#2302#0" expanded="false" />
-            <element signature="e#2339#2394#0" expanded="false" />
-            <element signature="e#2415#2448#0" expanded="false" />
-            <element signature="e#2471#2630#0" expanded="false" />
-            <element signature="e#2667#2725#0" expanded="false" />
-            <element signature="e#2744#2805#0" expanded="false" />
-            <element signature="e#2932#3077#0" expanded="false" />
-            <element signature="e#3104#3371#0" expanded="false" />
-            <element signature="e#3404#3460#0" expanded="false" />
-            <element signature="e#3501#3530#0" expanded="false" />
-            <element signature="e#3577#3750#0" expanded="false" />
-            <element signature="e#3816#3864#0" expanded="false" />
-            <element signature="e#3885#3948#0" expanded="false" />
-            <element signature="e#3972#4052#0" expanded="false" />
+            <element signature="e#2397#2466#0" expanded="false" />
+            <element signature="e#2503#2558#0" expanded="false" />
+            <element signature="e#2735#2894#0" expanded="false" />
+            <element signature="e#2931#2989#0" expanded="false" />
+            <element signature="e#3008#3069#0" expanded="false" />
+            <element signature="e#3196#3341#0" expanded="false" />
+            <element signature="e#3668#3724#0" expanded="false" />
+            <element signature="e#3765#3794#0" expanded="false" />
+            <element signature="e#4080#4128#0" expanded="false" />
+            <element signature="e#4542#4622#0" expanded="false" />
             <element signature="n#app-location#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
             <element signature="n#app-route#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-            <element signature="n#app-drawer#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-            <element signature="n#iron-selector#0;n#app-drawer#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-            <element signature="e#7348#7718#0" expanded="false" />
-            <element signature="e#7365#7709#0" expanded="false" />
-            <element signature="e#7383#7498#0" expanded="false" />
-            <element signature="e#7567#7633#0" expanded="false" />
-            <element signature="e#7749#7833#0" expanded="false" />
-            <element signature="e#7766#7824#0" expanded="false" />
-            <element signature="e#7865#8195#0" expanded="false" />
-            <element signature="e#7875#7947#0" expanded="false" />
-            <element signature="e#8143#8187#0" expanded="false" />
-            <element signature="e#8222#8505#0" expanded="false" />
-            <element signature="e#8528#8568#0" expanded="false" />
+            <element signature="e#9069#9184#0" expanded="false" />
+            <element signature="e#9520#9604#0" expanded="false" />
+            <element signature="e#9537#9595#0" expanded="false" />
+            <element signature="e#9636#9966#0" expanded="false" />
+            <element signature="e#9646#9718#0" expanded="false" />
+            <element signature="e#9914#9958#0" expanded="false" />
+            <element signature="e#10299#10339#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -719,37 +684,25 @@
           <folding>
             <element signature="e#1798#1908#0" expanded="false" />
             <element signature="e#1964#1996#0" expanded="false" />
-            <element signature="e#2058#2090#0" expanded="false" />
-            <element signature="e#2109#2195#0" expanded="false" />
-            <element signature="e#2233#2302#0" expanded="false" />
-            <element signature="e#2339#2394#0" expanded="false" />
-            <element signature="e#2415#2448#0" expanded="false" />
-            <element signature="e#2471#2630#0" expanded="false" />
-            <element signature="e#2667#2725#0" expanded="false" />
-            <element signature="e#2744#2805#0" expanded="false" />
-            <element signature="e#2932#3077#0" expanded="false" />
-            <element signature="e#3104#3371#0" expanded="false" />
-            <element signature="e#3404#3460#0" expanded="false" />
-            <element signature="e#3501#3530#0" expanded="false" />
-            <element signature="e#3577#3750#0" expanded="false" />
-            <element signature="e#3816#3864#0" expanded="false" />
-            <element signature="e#3885#3948#0" expanded="false" />
-            <element signature="e#3972#4052#0" expanded="false" />
+            <element signature="e#2397#2466#0" expanded="false" />
+            <element signature="e#2503#2558#0" expanded="false" />
+            <element signature="e#2735#2894#0" expanded="false" />
+            <element signature="e#2931#2989#0" expanded="false" />
+            <element signature="e#3008#3069#0" expanded="false" />
+            <element signature="e#3196#3341#0" expanded="false" />
+            <element signature="e#3668#3724#0" expanded="false" />
+            <element signature="e#3765#3794#0" expanded="false" />
+            <element signature="e#4080#4128#0" expanded="false" />
+            <element signature="e#4542#4622#0" expanded="false" />
             <element signature="n#app-location#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
             <element signature="n#app-route#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-            <element signature="n#app-drawer#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-            <element signature="n#iron-selector#0;n#app-drawer#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-            <element signature="e#7348#7718#0" expanded="false" />
-            <element signature="e#7365#7709#0" expanded="false" />
-            <element signature="e#7383#7498#0" expanded="false" />
-            <element signature="e#7567#7633#0" expanded="false" />
-            <element signature="e#7749#7833#0" expanded="false" />
-            <element signature="e#7766#7824#0" expanded="false" />
-            <element signature="e#7865#8195#0" expanded="false" />
-            <element signature="e#7875#7947#0" expanded="false" />
-            <element signature="e#8143#8187#0" expanded="false" />
-            <element signature="e#8222#8505#0" expanded="false" />
-            <element signature="e#8528#8568#0" expanded="false" />
+            <element signature="e#9069#9184#0" expanded="false" />
+            <element signature="e#9520#9604#0" expanded="false" />
+            <element signature="e#9537#9595#0" expanded="false" />
+            <element signature="e#9636#9966#0" expanded="false" />
+            <element signature="e#9646#9718#0" expanded="false" />
+            <element signature="e#9914#9958#0" expanded="false" />
+            <element signature="e#10299#10339#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -833,37 +786,25 @@
           <folding>
             <element signature="e#1798#1908#0" expanded="false" />
             <element signature="e#1964#1996#0" expanded="false" />
-            <element signature="e#2058#2090#0" expanded="false" />
-            <element signature="e#2109#2195#0" expanded="false" />
-            <element signature="e#2233#2302#0" expanded="false" />
-            <element signature="e#2339#2394#0" expanded="false" />
-            <element signature="e#2415#2448#0" expanded="false" />
-            <element signature="e#2471#2630#0" expanded="false" />
-            <element signature="e#2667#2725#0" expanded="false" />
-            <element signature="e#2744#2805#0" expanded="false" />
-            <element signature="e#2932#3077#0" expanded="false" />
-            <element signature="e#3104#3371#0" expanded="false" />
-            <element signature="e#3404#3460#0" expanded="false" />
-            <element signature="e#3501#3530#0" expanded="false" />
-            <element signature="e#3577#3750#0" expanded="false" />
-            <element signature="e#3816#3864#0" expanded="false" />
-            <element signature="e#3885#3948#0" expanded="false" />
-            <element signature="e#3972#4052#0" expanded="false" />
+            <element signature="e#2397#2466#0" expanded="false" />
+            <element signature="e#2503#2558#0" expanded="false" />
+            <element signature="e#2735#2894#0" expanded="false" />
+            <element signature="e#2931#2989#0" expanded="false" />
+            <element signature="e#3008#3069#0" expanded="false" />
+            <element signature="e#3196#3341#0" expanded="false" />
+            <element signature="e#3668#3724#0" expanded="false" />
+            <element signature="e#3765#3794#0" expanded="false" />
+            <element signature="e#4080#4128#0" expanded="false" />
+            <element signature="e#4542#4622#0" expanded="false" />
             <element signature="n#app-location#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
             <element signature="n#app-route#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-            <element signature="n#app-drawer#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-            <element signature="n#iron-selector#0;n#app-drawer#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-            <element signature="e#7348#7718#0" expanded="false" />
-            <element signature="e#7365#7709#0" expanded="false" />
-            <element signature="e#7383#7498#0" expanded="false" />
-            <element signature="e#7567#7633#0" expanded="false" />
-            <element signature="e#7749#7833#0" expanded="false" />
-            <element signature="e#7766#7824#0" expanded="false" />
-            <element signature="e#7865#8195#0" expanded="false" />
-            <element signature="e#7875#7947#0" expanded="false" />
-            <element signature="e#8143#8187#0" expanded="false" />
-            <element signature="e#8222#8505#0" expanded="false" />
-            <element signature="e#8528#8568#0" expanded="false" />
+            <element signature="e#9069#9184#0" expanded="false" />
+            <element signature="e#9520#9604#0" expanded="false" />
+            <element signature="e#9537#9595#0" expanded="false" />
+            <element signature="e#9636#9966#0" expanded="false" />
+            <element signature="e#9646#9718#0" expanded="false" />
+            <element signature="e#9914#9958#0" expanded="false" />
+            <element signature="e#10299#10339#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -881,13 +822,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/beesual-styles/beesual-styles.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -911,14 +845,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/beesual-styles/beesual-colors.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="37" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -968,14 +894,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/beesual-styles/shared-styles.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="52" column="14" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/beesual-resources.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1020,14 +938,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/beesual-guides.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.0">
-          <caret line="103" column="91" selection-start-line="103" selection-start-column="91" selection-end-line="103" selection-end-column="91" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database.rules.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1042,56 +952,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/beesual-how-to-start.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="97" column="4" selection-start-line="97" selection-start-column="4" selection-end-line="101" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/beesual-app.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1207547">
-          <caret line="202" column="78" selection-start-line="202" selection-start-column="78" selection-end-line="202" selection-end-column="78" />
-          <folding>
-            <element signature="e#1798#1908#0" expanded="false" />
-            <element signature="e#1964#1996#0" expanded="false" />
-            <element signature="e#2058#2090#0" expanded="false" />
-            <element signature="e#2109#2195#0" expanded="false" />
-            <element signature="e#2233#2302#0" expanded="false" />
-            <element signature="e#2339#2394#0" expanded="false" />
-            <element signature="e#2415#2448#0" expanded="false" />
-            <element signature="e#2471#2630#0" expanded="false" />
-            <element signature="e#2667#2725#0" expanded="false" />
-            <element signature="e#2744#2805#0" expanded="false" />
-            <element signature="e#2932#3077#0" expanded="false" />
-            <element signature="e#3104#3371#0" expanded="false" />
-            <element signature="e#3404#3460#0" expanded="false" />
-            <element signature="e#3501#3530#0" expanded="false" />
-            <element signature="e#3577#3750#0" expanded="false" />
-            <element signature="e#3816#3864#0" expanded="false" />
-            <element signature="e#3885#3948#0" expanded="false" />
-            <element signature="e#3972#4052#0" expanded="false" />
-            <element signature="n#app-location#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-            <element signature="n#app-route#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-            <element signature="n#app-drawer#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-            <element signature="n#iron-selector#0;n#app-drawer#0;n#app-drawer-layout#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
-            <element signature="e#7348#7718#0" expanded="false" />
-            <element signature="e#7365#7709#0" expanded="false" />
-            <element signature="e#7383#7498#0" expanded="false" />
-            <element signature="e#7567#7633#0" expanded="false" />
-            <element signature="e#7749#7833#0" expanded="false" />
-            <element signature="e#7766#7824#0" expanded="false" />
-            <element signature="e#7865#8195#0" expanded="false" />
-            <element signature="e#7875#7947#0" expanded="false" />
-            <element signature="e#8143#8187#0" expanded="false" />
-            <element signature="e#8222#8505#0" expanded="false" />
-            <element signature="e#8528#8568#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/firebase.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1102,8 +962,78 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/beesual-home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.075472">
-          <caret line="123" column="4" selection-start-line="123" selection-start-column="4" selection-end-line="123" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.33242506">
+          <caret line="67" column="13" selection-start-line="67" selection-start-column="11" selection-end-line="67" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/beesual-styles/beesual-styles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25233644">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/beesual-styles/shared-styles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-62.666668">
+          <caret line="101" column="13" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/beesual-guides.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.0">
+          <caret line="88" column="5" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/beesual-styles/beesual-colors.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.0">
+          <caret line="28" column="39" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/beesual-app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="204" column="33" selection-start-line="204" selection-start-column="6" selection-end-line="204" selection-end-column="33" />
+          <folding>
+            <element signature="e#1798#1908#0" expanded="false" />
+            <element signature="e#1964#1996#0" expanded="false" />
+            <element signature="e#2397#2466#0" expanded="false" />
+            <element signature="e#2503#2558#0" expanded="false" />
+            <element signature="e#2735#2894#0" expanded="false" />
+            <element signature="e#2931#2989#0" expanded="false" />
+            <element signature="e#3008#3069#0" expanded="false" />
+            <element signature="e#3196#3341#0" expanded="false" />
+            <element signature="e#3668#3724#0" expanded="false" />
+            <element signature="e#3765#3794#0" expanded="false" />
+            <element signature="e#4080#4128#0" expanded="false" />
+            <element signature="e#4542#4622#0" expanded="false" />
+            <element signature="n#app-location#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
+            <element signature="n#app-route#0;n#template#0;n#dom-module#0;n#!!top" expanded="false" />
+            <element signature="e#9069#9184#0" expanded="false" />
+            <element signature="e#9520#9604#0" expanded="false" />
+            <element signature="e#9537#9595#0" expanded="false" />
+            <element signature="e#9636#9966#0" expanded="false" />
+            <element signature="e#9646#9718#0" expanded="false" />
+            <element signature="e#9914#9958#0" expanded="false" />
+            <element signature="e#10299#10339#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/beesual-how-to-start.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28070176">
+          <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
           <folding />
         </state>
       </provider>
