@@ -31,7 +31,57 @@
                 padding: 8px;
                 margin: 0;
             }
+            .other-video {
+                position: relative;
+                display: block;
+                margin: 0;
+                padding: 0;
+                height: 190px;
+                width: 380px;
+                background: #0e203a; /* Old browsers */
+                background: -moz-linear-gradient(top, #0e203a 0%, #2dcccd 100%); /* FF3.6-15 */
+                background: -webkit-linear-gradient(top, #0e203a 0%,#2dcccd 100%); /* Chrome10-25,Safari5.1-6 */
+                background: linear-gradient(to bottom, #0e203a 0%,#2dcccd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e203a', endColorstr='#2dcccd',GradientType=0 ); /* IE6-9 */
+            }
 
+            .play-button {
+                display: block;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                width: 68px;
+                height: 48px;
+                margin-left: -34px;
+                margin-top: -24px;
+                -moz-transition: opacity .25s cubic-bezier(0.0,0.0,0.2,1);
+                -webkit-transition: opacity .25s cubic-bezier(0.0,0.0,0.2,1);
+                transition: opacity .25s cubic-bezier(0.0,0.0,0.2,1);
+                z-index: 63;
+                background-color: var(--blue-indico-dark-gray);
+                border-radius: 10px;
+                overflow: hidden;
+                opacity: 0.7;
+            }
+
+            /*.ytp-large-play-button-bg {*/
+                /*opacity: 0.8;*/
+            /*}*/
+
+            .play-button:hover {
+                opacity: 1;
+            }
+
+            .video-name {
+                color: white;
+                font-size: 18px;
+                padding: 16px;
+                box-sizing: border-box;
+                margin: 0;
+            }
+            .play-button:hover {
+                cursor: pointer;
+            }
         </style>
 
         <firebase-query
@@ -52,6 +102,18 @@
                                     rel="0"
                                     start="5"
                                     autoplay="0"></google-youtube>
+                        </div>
+                    </template>
+                    <template is="dom-if" if="[[video.isFromGoogleDrive]]">
+                        <div class="video-wrapper">
+                            <div class="other-video">
+                                <p class="video-name">[[video.name]]</p>
+                                <a class="play-button" href="[[video.url]]" target="_blank">
+                                    <svg height="100%" version="1.1" viewBox="0 0 68 48" width="100%">
+                                        <path class="ytp-large-play-button-bg" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z" fill="#212121" fill-opacity="0.8"></path>
+                                        <path d="M 45,24 27,14 27,34" fill="#fff"></path></svg>
+                                </a>
+                            </div>
                         </div>
                     </template>
                 </template>
