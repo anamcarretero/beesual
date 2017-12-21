@@ -15,6 +15,7 @@
                 display: block;
                 padding: 64px 10px;
                 background-color: white;
+                min-height: 100vh;
             }
 
             video.video {
@@ -48,9 +49,15 @@
         </app-route>
 
         <div class="page-container">
-            <video id="video" controls class="video">
-                <source src$="[[guide.videoPath]]" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
-            </video>
+            <div class="info-block lg-one-col-right-padding lg-one-col-left-padding">
+                <h1 class="page-title">[[guide.name]]</h1>
+                <p class="medium-block page-text">[[guide.description]]</p>
+            </div>
+            <div class="first-block">
+                <video id="video" controls class="video">
+                    <source src$="[[guide.videoPath]]" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+                </video>
+            </div>
         </div>
     </template>
 

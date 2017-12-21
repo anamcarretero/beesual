@@ -13,8 +13,9 @@
     <style include="beesual-styles">
       :host {
         display: block;
-        padding: 10px;
+        padding: 64px 10px;
         background-color: white;
+        min-height: 100vh;
       }
 
       .card-container {
@@ -119,7 +120,13 @@
 
     <div class="page-container">
 
-      <div class="row-block card-container lg-one-col-right-padding lg-one-col-left-padding">
+      <div class="info-block lg-one-col-right-padding lg-one-col-left-padding">
+        <h1 class="page-title">Cómo empezar</h1>
+        <p class="medium-block page-text">
+          ¡No es necesario ser ningún experto para poder crear un vídeo! De una forma sencilla, y gracias a las diferentes plataformas y herramientas que existen, puedes generar contenido y compartirlo con tus compañeros. A continuación te mostramos algunas de las que más nos gustan. Te resultarán útiles a la hora de componer tus vídeos.
+      </div>
+
+      <div class="first-block row-block card-container lg-one-col-right-padding lg-one-col-left-padding">
 
         <template is="dom-repeat" items="[[guides]]">
           <div class="card-wrapper row-block">
